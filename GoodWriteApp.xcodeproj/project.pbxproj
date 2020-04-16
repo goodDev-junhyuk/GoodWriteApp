@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C88ACBC82446026600C1ED7C /* GoodWriteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWriteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88ACBC82446026600C1ED7C /* 간단메모장.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "간단메모장.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88ACBCB2446026600C1ED7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88ACBCD2446026600C1ED7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C88ACBCF2446026600C1ED7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		C88ACBC92446026600C1ED7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C88ACBC82446026600C1ED7C /* GoodWriteApp.app */,
+				C88ACBC82446026600C1ED7C /* 간단메모장.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			);
 			name = GoodWriteApp;
 			productName = GoodWriteApp;
-			productReference = C88ACBC82446026600C1ED7C /* GoodWriteApp.app */;
+			productReference = C88ACBC82446026600C1ED7C /* 간단메모장.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -297,9 +297,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.junhyuk.GoodWriteApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "간단메모장";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,9 +316,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.junhyuk.GoodWriteApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "간단메모장";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
