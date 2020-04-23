@@ -28,6 +28,10 @@ class MainViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
+        let target = Memo.dummyMemoList[indexPath.row]
+        cell.textLabel?.text = target.content
+        cell.detailTextLabel?.text = target.insertDate.description
+        
         return cell
     }
     
