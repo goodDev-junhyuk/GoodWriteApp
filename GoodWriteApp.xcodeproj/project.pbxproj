@@ -71,12 +71,12 @@
 				C8705F34244F3B940060E94C /* Model */,
 				C88ACBCB2446026600C1ED7C /* AppDelegate.swift */,
 				C88ACBCD2446026600C1ED7C /* SceneDelegate.swift */,
+				C8705F32244F3A6B0060E94C /* MainViewController.swift */,
 				C88ACBD12446026600C1ED7C /* Main.storyboard */,
 				C88ACBD72446026700C1ED7C /* Assets.xcassets */,
 				C88ACBD92446026700C1ED7C /* LaunchScreen.storyboard */,
 				C88ACBDC2446026700C1ED7C /* Info.plist */,
 				C88ACBD42446026600C1ED7C /* GoodWriteApp.xcdatamodeld */,
-				C8705F32244F3A6B0060E94C /* MainViewController.swift */,
 			);
 			path = GoodWriteApp;
 			sourceTree = "<group>";
