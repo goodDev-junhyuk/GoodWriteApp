@@ -26,7 +26,6 @@ class Memo {
         Memo(content: "빨래하기"),
         Memo(content: "개발 연습하기."),
         
-        
     ]
     
 }
