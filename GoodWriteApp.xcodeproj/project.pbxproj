@@ -15,6 +15,7 @@
 		C88ACBD62446026600C1ED7C /* GoodWriteApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C88ACBD42446026600C1ED7C /* GoodWriteApp.xcdatamodeld */; };
 		C88ACBD82446026700C1ED7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88ACBD72446026700C1ED7C /* Assets.xcassets */; };
 		C88ACBDB2446026700C1ED7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88ACBD92446026700C1ED7C /* LaunchScreen.storyboard */; };
+		C899C0C8245805F900BB1F41 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C899C0C7245805F900BB1F41 /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C88ACBD72446026700C1ED7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C88ACBDA2446026700C1ED7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C88ACBDC2446026700C1ED7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C899C0C7245805F900BB1F41 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				C88ACBCB2446026600C1ED7C /* AppDelegate.swift */,
 				C88ACBCD2446026600C1ED7C /* SceneDelegate.swift */,
 				C8705F32244F3A6B0060E94C /* MainViewController.swift */,
+				C899C0C7245805F900BB1F41 /* ComposeViewController.swift */,
 				C88ACBD12446026600C1ED7C /* Main.storyboard */,
 				C88ACBD72446026700C1ED7C /* Assets.xcassets */,
 				C88ACBD92446026700C1ED7C /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				C88ACBCC2446026600C1ED7C /* AppDelegate.swift in Sources */,
 				C88ACBD62446026600C1ED7C /* GoodWriteApp.xcdatamodeld in Sources */,
 				C8705F36244F3BB80060E94C /* Model.swift in Sources */,
+				C899C0C8245805F900BB1F41 /* ComposeViewController.swift in Sources */,
 				C88ACBCE2446026600C1ED7C /* SceneDelegate.swift in Sources */,
 				C8705F33244F3A6B0060E94C /* MainViewController.swift in Sources */,
 			);
