@@ -16,6 +16,13 @@ class ComposeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // 취소 버튼 탭했을 시 메인화면으로 이동.
+    @IBAction func closeButton(_ sender: UIBarButtonItem) {
+        
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
 
     /*
     // MARK: - Navigation
