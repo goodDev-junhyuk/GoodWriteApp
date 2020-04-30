@@ -9,7 +9,10 @@
 import UIKit
 
 class ComposeViewController: UIViewController {
-
+    
+    // 텍스트뷰 프로퍼티 선언.
+    @IBOutlet weak var memoTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,13 +21,20 @@ class ComposeViewController: UIViewController {
     
     // 취소 버튼 탭했을 시 메인화면으로 이동.
     @IBAction func closeButton(_ sender: UIBarButtonItem) {
-        
+        print("취소버튼")
         dismiss(animated: true, completion: nil)
-        
     }
     
     
     @IBAction func saveButton(_ sender: UIBarButtonItem) {
+        print("저장버튼")
+        
+        guard let memo = memoTextView.text, memo.count > 0 else {
+            
+            alert(message: "메모를 입력하세요.")
+            
+            return
+        }
         
         
     }

@@ -90,8 +90,15 @@
                                 <action selector="closeButton:" destination="bQb-Fq-OFs" id="owg-U3-2Mt"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="o3T-ev-31W"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="o3T-ev-31W">
+                            <connections>
+                                <action selector="saveButton:" destination="bQb-Fq-OFs" id="Z1D-6G-Jyz"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="memoTextView" destination="7dw-df-QEU" id="eKf-nR-Q2e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Usa-se-y6t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,7 +110,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eTp-0H-m4a" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="F2n-nU-qfQ">
-                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="104.33333333333334"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

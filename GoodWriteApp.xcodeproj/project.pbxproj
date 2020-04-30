@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C853F44D245B191000A6D004 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853F44C245B191000A6D004 /* UIViewController+Alert.swift */; };
 		C8705F33244F3A6B0060E94C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8705F32244F3A6B0060E94C /* MainViewController.swift */; };
 		C8705F36244F3BB80060E94C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8705F35244F3BB80060E94C /* Model.swift */; };
 		C88ACBCC2446026600C1ED7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88ACBCB2446026600C1ED7C /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C853F44C245B191000A6D004 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		C8705F32244F3A6B0060E94C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C8705F35244F3BB80060E94C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C88ACBC82446026600C1ED7C /* 간단메모장.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "간단메모장.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 				C88ACBD92446026700C1ED7C /* LaunchScreen.storyboard */,
 				C88ACBDC2446026700C1ED7C /* Info.plist */,
 				C88ACBD42446026600C1ED7C /* GoodWriteApp.xcdatamodeld */,
+				C853F44C245B191000A6D004 /* UIViewController+Alert.swift */,
 			);
 			path = GoodWriteApp;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				C899C0C8245805F900BB1F41 /* ComposeViewController.swift in Sources */,
 				C88ACBCE2446026600C1ED7C /* SceneDelegate.swift in Sources */,
 				C8705F33244F3A6B0060E94C /* MainViewController.swift in Sources */,
+				C853F44D245B191000A6D004 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
