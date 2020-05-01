@@ -28,12 +28,17 @@ class MainViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        tableView.reloadData()
-        print(#function)
+        // tableView.reloadData()
+        // print(#function)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) { [weak self] (noti) in
+            
+            self?.tableView.reloadData()
+        }
         
     }
 
