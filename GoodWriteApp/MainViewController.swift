@@ -31,6 +31,9 @@ class MainViewController: UITableViewController {
         // tableView.reloadData()
         // print(#function)
     }
+    
+    var token: NSObjectProtocol?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
