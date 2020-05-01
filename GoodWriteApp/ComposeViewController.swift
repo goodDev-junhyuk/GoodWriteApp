@@ -15,7 +15,7 @@ class ComposeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -35,6 +35,11 @@ class ComposeViewController: UIViewController {
             
             return
         }
+        
+        let newMemo = Memo(content: memo)
+        Memo.dummyMemoList.append(newMemo)
+        
+        dismiss(animated: true, completion: nil)
         
         
     }

@@ -23,10 +23,18 @@ class MainViewController: UITableViewController {
     
         
     }()
+    
+    // 앱의 순환주기.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        tableView.reloadData()
+        print(#function)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
 
     // MARK: - Table view data source
